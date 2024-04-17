@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "gen-file-json": "npx esrun src/csvToJson.ts",
+    "subscribe": "npx esrun src/subscribeEvent.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@digitak/esrun": "^3.2.26",
+    "@injectivelabs/sdk-ts": "^1.14.4",
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "typescript": "^5.3.3",
+    "ws": "^8.16.0"
+  }
+}
